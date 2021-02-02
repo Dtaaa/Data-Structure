@@ -1,0 +1,50 @@
+append:IAD:Washington Dulles International:Washington:USA:38:-77
+list-tour
+list-labels
+append:BWI:Baltimore Washington International:Baltimore:USA:39:-76
+list-tour
+list-labels
+append:LAX:Los Angeles International:Los Angeles:USA:33:-118
+list-tour
+list-labels
+append:DCA:Ronald Reagan Washington National:Washington:USA:38:-77
+append:JFK:John F Kennedy International:New York:USA:40:-73
+append:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:33:-84
+append:SFO:San Francisco International:San Francisco:USA:37:-122
+list-tour
+list-labels
+index-of:LAX
+index-of:IAD
+index-of:SFO
+index-of:HKG
+append:DCA:Another Reagan Washington National:Washington:USA:38:-77
+append:JFK:Another Kennedy International:New York:USA:40:-73
+append:ATL:Another Hartsfield Atlanta International:Atlanta:USA:33:-84
+append:SFO:Another San Francisco International:San Francisco:USA:37:-122
+list-tour
+list-labels
+reverse:BWI:ATL
+list-tour
+list-labels
+index-of:LAX
+index-of:IAD
+index-of:SFO
+index-of:HKG
+reverse:SFO:DCA
+list-tour
+list-labels
+append:ORD:Chicago OHare International:Chicago:USA:41:-87
+list-tour
+list-labels
+index-of:DCA
+index-of:JFK
+index-of:BWI
+index-of:ORD
+index-of:BOS
+reverse:IAD:IAD
+reverse:ORD:JFK
+reverse:LAX:CDG
+reverse:DFW:CDG
+reverse:DFW:DFW
+list-tour
+list-labels
