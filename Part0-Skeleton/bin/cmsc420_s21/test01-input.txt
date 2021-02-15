@@ -1,0 +1,16 @@
+append:IAD:Washington Dulles International:Washington:USA:38:-77
+list-tour
+list-labels
+append:BWI:Baltimore Washington International:Baltimore:USA:39:-76
+list-tour
+list-labels
+append:LAX:Los Angeles International:Los Angeles:USA:33:-118
+list-tour
+list-labels
+append:IAD:Another Dulles Aiport:Chantilly:USA:33:-72
+append:DCA:Ronald Reagan Washington National:Washington:USA:38:-77
+append:JFK:John F Kennedy International:New York:USA:40:-73
+append:ATL:The William B Hartsfield Atlanta International:Atlanta:USA:33:-84
+append:SFO:San Francisco International:San Francisco:USA:37:-122
+list-tour
+list-labels

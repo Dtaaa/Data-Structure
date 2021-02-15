@@ -1,0 +1,50 @@
+append(IAD): Added to tour at index 0
+list-tour: 0:IAD
+list-labels: IAD:0
+append(BWI): Added to tour at index 1
+list-tour: 0:IAD 1:BWI
+list-labels: BWI:1 IAD:0
+append(LAX): Added to tour at index 2
+list-tour: 0:IAD 1:BWI 2:LAX
+list-labels: BWI:1 IAD:0 LAX:2
+append(DCA): Added to tour at index 3
+append(JFK): Added to tour at index 4
+append(ATL): Added to tour at index 5
+append(SFO): Added to tour at index 6
+list-tour: 0:IAD 1:BWI 2:LAX 3:DCA 4:JFK 5:ATL 6:SFO
+list-labels: ATL:5 BWI:1 DCA:3 IAD:0 JFK:4 LAX:2 SFO:6
+index-of(LAX): 2
+index-of(IAD): 0
+index-of(SFO): 6
+index-of(HKG): Not-found
+append(DCA): Error - Label exists (operation ignored)
+append(JFK): Error - Label exists (operation ignored)
+append(ATL): Error - Label exists (operation ignored)
+append(SFO): Error - Label exists (operation ignored)
+list-tour: 0:IAD 1:BWI 2:LAX 3:DCA 4:JFK 5:ATL 6:SFO
+list-labels: ATL:5 BWI:1 DCA:3 IAD:0 JFK:4 LAX:2 SFO:6
+reverse(BWI,ATL): Successfully reversed subtour of length 5
+list-tour: 0:IAD 1:ATL 2:JFK 3:DCA 4:LAX 5:BWI 6:SFO
+list-labels: ATL:1 BWI:5 DCA:3 IAD:0 JFK:2 LAX:4 SFO:6
+index-of(LAX): 4
+index-of(IAD): 0
+index-of(SFO): 6
+index-of(HKG): Not-found
+reverse(SFO,DCA): Successfully reversed subtour of length 4
+list-tour: 0:IAD 1:ATL 2:JFK 3:SFO 4:BWI 5:LAX 6:DCA
+list-labels: ATL:1 BWI:4 DCA:6 IAD:0 JFK:2 LAX:5 SFO:3
+append(ORD): Added to tour at index 7
+list-tour: 0:IAD 1:ATL 2:JFK 3:SFO 4:BWI 5:LAX 6:DCA 7:ORD
+list-labels: ATL:1 BWI:4 DCA:6 IAD:0 JFK:2 LAX:5 ORD:7 SFO:3
+index-of(DCA): 6
+index-of(JFK): 2
+index-of(BWI): 4
+index-of(ORD): 7
+index-of(BOS): Not-found
+reverse(IAD,IAD): Error - Labels are equal (operation ignored)
+reverse(ORD,JFK): Successfully reversed subtour of length 6
+reverse(LAX,CDG): Error - Label CDG does not exist (operation ignored)
+reverse(DFW,CDG): Error - Label DFW does not exist (operation ignored)
+reverse(DFW,DFW): Error - Label DFW does not exist (operation ignored)
+list-tour: 0:IAD 1:ATL 2:ORD 3:DCA 4:LAX 5:BWI 6:SFO 7:JFK
+list-labels: ATL:1 BWI:5 DCA:3 IAD:0 JFK:7 LAX:4 ORD:2 SFO:6

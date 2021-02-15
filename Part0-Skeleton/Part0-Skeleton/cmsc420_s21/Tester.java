@@ -20,8 +20,8 @@ public class Tester {
 	// --------------------------------------------------------------------------------------------
 	// Uncomment these to read from files
 	private static final boolean USE_STD_IO = false;
-	private static String inputFileName = "tests/test01-input.txt";
-	private static String outputFileName = "tests/test01-output.txt";
+	private static String inputFileName = "tests/test02-input.txt";
+	private static String outputFileName = "tests/test02-output.txt";
 	// --------------------------------------------------------------------------------------------
 
 	public static void main(String[] args) {
@@ -35,6 +35,7 @@ public class Tester {
 				e.printStackTrace();
 			}
 		}
+		
 
 		try {
 			Scanner scanner = new Scanner(System.in); // input scanner

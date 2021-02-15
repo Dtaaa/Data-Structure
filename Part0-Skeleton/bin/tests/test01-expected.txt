@@ -1,0 +1,16 @@
+append(IAD): Added to tour at index 0
+list-tour: 0:IAD
+list-labels: IAD:0
+append(BWI): Added to tour at index 1
+list-tour: 0:IAD 1:BWI
+list-labels: BWI:1 IAD:0
+append(LAX): Added to tour at index 2
+list-tour: 0:IAD 1:BWI 2:LAX
+list-labels: BWI:1 IAD:0 LAX:2
+append(IAD): Error - Label exists (operation ignored)
+append(DCA): Added to tour at index 3
+append(JFK): Added to tour at index 4
+append(ATL): Added to tour at index 5
+append(SFO): Added to tour at index 6
+list-tour: 0:IAD 1:BWI 2:LAX 3:DCA 4:JFK 5:ATL 6:SFO
+list-labels: ATL:5 BWI:1 DCA:3 IAD:0 JFK:4 LAX:2 SFO:6
